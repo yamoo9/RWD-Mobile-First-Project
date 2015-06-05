@@ -1,0 +1,32 @@
+/**
+ * --------------------------------
+ * 고해상도 디스플레이 대응 - 비트맵 이미지
+ * --------------------------------
+ */
+
+/* @2x */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+
+}
+
+/* @3x */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-device-pixel-ratio: 3),
+only screen and (min-resolution: 288dpi),
+only screen and (min-resolution: 3dppx) {
+
+}
+
+/* @4x */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 4),
+only screen and (min-device-pixel-ratio: 4),
+only screen and (min-resolution: 384dpi),
+only screen and (min-resolution: 4dppx) {
+
+}

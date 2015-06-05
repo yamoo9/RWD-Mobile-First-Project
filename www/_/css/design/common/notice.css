@@ -1,0 +1,30 @@
+/**
+ * --------------------------------
+ * 알림 - 브라우저 업그레이드
+ * --------------------------------
+ */
+
+#notice-upgrade {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+	padding-bottom: 320px;
+	padding: 0.625rem;
+	padding-bottom: 20rem;
+	background-color: #fff;
+	background: -webkit-linear-gradient(top, #fff, transparent);
+	background: linear-gradient(top, #fff, transparent);
+	color: #303030;
+}
+
+#notice-upgrade a {
+	color: #1BB2FF;
+}
+
+.lt-ie10 #notice-upgrade {
+	display: block;
+}

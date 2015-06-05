@@ -1,0 +1,5 @@
+#! /usr/bin/env sh
+# chmod +x {directory}
+
+node bin/r.js -o bin/build-css.js
+node bin/r.js -o bin/build-js.js

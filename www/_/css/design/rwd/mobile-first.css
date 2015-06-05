@@ -1,0 +1,26 @@
+/**
+ * --------------------------------
+ * mobile-first.css
+ * --------------------------------
+ */
+
+html, html a {
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+body {
+	min-height: 100vh;
+	font: 14px/1.5 'Noto Sans', Dotum, Sans-Serif;
+}
+
+
+/**
+ * --------------------------------
+ * 페이지 섹션 모듈
+ * --------------------------------
+ */
+@import "../page-section/header.css";
+@import "../page-section/nav.css";
+@import "../page-section/main.css";
+@import "../page-section/footer.css";
